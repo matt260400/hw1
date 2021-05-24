@@ -1,0 +1,41 @@
+.descriptionDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 85px;
+}
+
+.descriptionDiv img {
+    max-width: 350px;
+}
+
+.infoDiv p {
+    max-width: 90%;
+    font-size: 1.4em;
+}
+
+p.title {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.cardInfo a {
+    margin-top: 9px;
+}
+
+.trackLink a:hover, .cardInfo a:hover {
+    cursor: pointer;
+}
+
+pre{
+    margin-top: 130px;
+    margin-bottom: 150px;
+    white-space: pre-wrap;
+}
+
+.lyricsText{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 25px;
+    text-align: center;
+}

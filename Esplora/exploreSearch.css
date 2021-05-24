@@ -1,0 +1,69 @@
+/*
+    card.classList.add('card')
+    cardInfo.classList.add('cardInfo')
+    title.classList.add('searchTitle')
+*/
+
+.resultsCard {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.resultsCard img {
+    border-radius: 15px;
+    width: 200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 26, 26, 0.712);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 150ms ease-in;
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
+
+.cardInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardInfo p {
+    max-width: 160px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    padding-right: 15px;
+    font-size: 1.1em;
+}
+
+.cardInfo img {
+    max-width: 30px;
+    padding-bottom: 5px;
+}
+
+#searchInfo {
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+#searchInfo div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#searchInfo img {
+    max-width: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
